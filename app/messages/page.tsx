@@ -20,7 +20,7 @@ const Messages: React.FC = () => {
           className="mt-5"
         />
       </div>
-      <div className="bg-[#2C2D30] w-full min-h-[60vh]">
+      <div className="bg-[#2C2D30] w-full min-h-[50vh] rounded-t-3xl">
         <div className="flex flex-col items-start justify-start mt-20 w-full h-[150px]">
           {messages.map((message, index) => (
             <div
