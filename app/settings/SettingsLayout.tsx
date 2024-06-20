@@ -18,10 +18,10 @@ export default function SettingsLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${inter.className} bg-white text-black h-screen`}>
+    <div>
+      <div className={`${inter.className} bg-white text-black h-screen`}>
         {children}
-      </body>
-    </html>
+      </div>
+    </div>
   );
 }

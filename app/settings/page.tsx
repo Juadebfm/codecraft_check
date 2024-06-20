@@ -1,10 +1,12 @@
 import React from "react";
 import SettingsLayout from "./SettingsLayout";
+import Link from "next/link";
 
 const Settings = () => {
   return (
     <SettingsLayout>
       <div className="py-7">
+        <Link href="/" className="px-[25px]">Go back</Link>
         <h1 className="text-center font-bold">Vote</h1>
         <div className="bg-[#F0F5FF] px-[25px] py-7 mt-4">
           <span>10 FAO</span> will be deducted when voting is generated (Amount
@@ -57,7 +59,9 @@ const Settings = () => {
           </div>
 
           <div className="w-full mt-5 flex flex-col">
-            <label htmlFor="Start" className="mb-2">Start</label>
+            <label htmlFor="Start" className="mb-2">
+              Start
+            </label>
             <input
               type="date"
               name="date"

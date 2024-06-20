@@ -48,7 +48,7 @@ const Footer = () => {
           <CiWallet size={25} />
         </a>
         <a
-          href="#"
+          href="/timer"
           className={`${getLinkStyle("/timer")} w-full pt-5 flex items-center justify-center`}
         >
           <CiTimer size={25} />
