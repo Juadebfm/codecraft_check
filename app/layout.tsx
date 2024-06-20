@@ -23,7 +23,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-[#1F1F1F] text-white h-screen`}>
+      <body className={`${inter.className} bg-[#1F1F1F] text-white h-screen`} suppressHydrationWarning={true}>
         <Navbar />
         {children}
         <Footer/>

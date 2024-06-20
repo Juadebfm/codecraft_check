@@ -3,6 +3,9 @@ import React from "react";
 import Image from "next/image";
 import { messages, Message } from "../mockData"; // Adjust the path as necessary
 
+
+
+
 const Messages: React.FC = () => {
   const handleClick = (message: Message): void => {
     message.toggleClicked();

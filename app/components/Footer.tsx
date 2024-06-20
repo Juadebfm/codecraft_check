@@ -11,7 +11,7 @@ import Modal from "./Modal"; // Import the Modal component
 const Footer = () => {
   const pathname = usePathname();
   const router = useRouter();
-  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false); // isModalOpen = false
 
   const getLinkStyle = (path: string) => {
     return pathname === path ? "border-t-4 border-green-500" : "";
@@ -53,6 +53,7 @@ const Footer = () => {
         >
           <CiTimer size={25} />
         </a>
+       
       </footer>
       {isModalOpen && <Modal onClose={() => setIsModalOpen(false)} />}
     </>
